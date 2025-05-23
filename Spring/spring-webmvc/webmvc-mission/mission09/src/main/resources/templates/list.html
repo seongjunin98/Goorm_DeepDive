@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>게시글 목록</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body>
+<h1>게시글 목록</h1>
+<table>
+    <thead>
+    <tr>
+        <th>제목</th>
+        <th>작성자</th>
+        <th>상세</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="post : ${posts}">
+        <td th:text="${post.title}">제목</td>
+        <td th:text="${post.author}">작성자</td>
+        <td><a th:href="@{/posts/{id}(id=${post.id})}">보기</a></td>
+    </tr>
+    </tbody>
+</table>
+<a href="/posts/new">새 글 작성</a>
+
+</body>
+</html>

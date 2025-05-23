@@ -1,0 +1,12 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          ## local repository path or remote repository path
+          uri: file:///Users/inseongjun/Desktop/Study-Groom/Spring-Groom/MSA/config

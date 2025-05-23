@@ -1,0 +1,18 @@
+# msaconfig.yml 파일 내용 예시
+
+app:
+  message: Hello from Config Server! This is the default message for msaconfig.
+  version: 1.0.0
+
+# 만약 데이터베이스 설정도 필요하다면 아래 내용을 추가 (실제 정보로 변경 필요)
+# spring:
+#   datasource:
+#     url: jdbc:h2:mem:testdb
+#     username: sa
+#     password:
+#     driverClassName: org.h2.Driver
+
+# 다른 서비스에 보낼 토큰(API 키) 정보가 필요하다면 아래 내용을 추가
+# external-service:
+#   api-key: "YOUR_STATIC_API_KEY_12345ABC"
+#   auth-header-name: "X-Api-Key"
