@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+h1 {
+    color: navy;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    color: teal;
+    border-bottom: 2px solid teal;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 30px;
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+p {
+    line-height: 1.6;
+    color: #333;
+}
+
+h3 {
+    color: purple;
+}

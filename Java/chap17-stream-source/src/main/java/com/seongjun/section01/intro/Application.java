@@ -1,0 +1,26 @@
+package com.seongjun.section01.intro;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Application {
+
+    public static void main(String[] args) {
+
+        /* 목표. Stream에 대해 이해하고 사용할 수 있다. */
+
+        List<String> stringList = new ArrayList<>(Arrays.asList("hello", "world", "stream"));
+
+        /* 이전에 스트림을 이용하지 않던 방식 */
+        System.out.println("================ foreach");
+        for(String str : stringList){
+            System.out.println(str);
+        }
+
+        /* 스트림을 이용한 방식 */
+        System.out.println("================= stram");
+        stringList.forEach(System.out::println);
+
+    }
+}

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="35e77d26-edff-4804-a881-0a12b9aaf452" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SeongJunIn&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SeongJunIn/Java-Groom.git&quot;,
+    &quot;accountId&quot;: &quot;5cd75890-3a71-46f5-9aa3-2d8c592f7d13&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ueN5c3L6Za7M6rJehrCZmFJAPW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.chap10-api-source [:com.seongjun.section01.string.Application1.main()].executor": "Run",
+    "Gradle.chap10-api-source [:com.seongjun.section01.string.Application2.main()].executor": "Run",
+    "Gradle.chap10-api-source [:com.seongjun.section01.string.Application3.main()].executor": "Run",
+    "Gradle.chap10-api-source [:com.seongjun.section01.string.Application4.main()].executor": "Run",
+    "Gradle.chap10-api-source [:com.seongjun.section02.stringbuiler.Appilcation1.main()].executor": "Run",
+    "Gradle.chap10-api-source [:com.seongjun.section03.wrapper.Application2.main()].executor": "Run",
+    "Gradle.chap10-api-source [:com.seongjun.section03.wrapper.Application3.main()].executor": "Run",
+    "Gradle.chap10-api-source [:com.seongjun.section04.time.Application1.main()].executor": "Run",
+    "Gradle.chap10-api-source [:com.seongjun.section04.time.Application2.main()].executor": "Run",
+    "Gradle.chap10-api-source [:com.seongjun.section04.time.Application3.main()].executor": "Run",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/inseongjun/Desktop/Study-Groom/Java-Groom/chap10-api-source",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/inseongjun/Desktop/Study-Groom/Java-Groom/chap10-api-source/src/main/java/com/seongjun/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="애플리케이션.Application3">
+    <configuration name="Application1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.seongjun.section04.time.Application1" />
+      <module name="chap10-api-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seongjun.section04.time.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.seongjun.section04.time.Application2" />
+      <module name="chap10-api-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seongjun.section04.time.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.seongjun.section04.time.Application3" />
+      <module name="chap10-api-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seongjun.section04.time.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.seongjun.section03.wrapper.Application2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.seongjun.section03.wrapper.Application2" />
+      <module name="chap10-api-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seongjun.section03.wrapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.seongjun.section03.wrapper.Application3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.seongjun.section03.wrapper.Application3" />
+      <module name="chap10-api-source.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seongjun.section03.wrapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.Application3" />
+        <item itemvalue="애플리케이션.Application2" />
+        <item itemvalue="애플리케이션.Application1" />
+        <item itemvalue="애플리케이션.com.seongjun.section03.wrapper.Application3" />
+        <item itemvalue="애플리케이션.com.seongjun.section03.wrapper.Application2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="35e77d26-edff-4804-a881-0a12b9aaf452" name="변경" comment="" />
+      <created>1742604903964</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742604903964</updated>
+      <workItem from="1742604905110" duration="7065000" />
+      <workItem from="1742703964359" duration="1209000" />
+      <workItem from="1742789832677" duration="3765000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
