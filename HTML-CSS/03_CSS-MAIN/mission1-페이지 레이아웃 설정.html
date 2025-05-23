@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>페이지 레이아웃 설정</title>
+    <style>
+        * {
+            
+            box-sizing: border-box;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        
+        header {
+            width: 100%;
+            background: blue;
+        }
+
+        nav {
+            background: red;
+            width: 80%;
+            position: relative;
+            left: 80px;
+            
+        }
+
+        main {
+            display: flex;
+            width: 100%;
+            flex: 1;
+        }
+
+        section {
+            width: 85%;
+            background: darkgreen;
+            padding: 40px;
+            flex-direction: column;
+            gap: 10px;
+           
+        }
+
+        article {
+            background: lightgreen;
+            padding: 50px;
+        }
+
+        article:nth-child(2) {
+            background: pink;
+        }
+
+        article:nth-child(3) {
+            background: lightblue;
+        }
+
+        aside {
+            width: 15%;
+            background: beige;
+            padding: 20px;
+        }
+
+        footer {
+            width: 100%;
+            background: purple;
+            padding: 10px 0;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1><b>레이지 아웃 설정</b></h1>
+    <header>header
+        <nav>nav</nav>
+    </header>
+    <main>
+        <section>section
+            <article>article</article>
+            <article>article</article>
+            <article>article</article>
+        </section>
+        <aside>aside</aside>
+    </main>
+    <footer>footer</footer>
+</body>
+</html>
