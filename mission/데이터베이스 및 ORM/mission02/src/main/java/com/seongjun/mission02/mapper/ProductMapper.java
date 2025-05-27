@@ -1,11 +1,10 @@
 package com.seongjun.mission02.mapper;
 
 import com.seongjun.mission02.model.Product;
-import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
-@Mapper
+//@Mapper
 public interface ProductMapper {
 
     int insertProduct(Product product);
