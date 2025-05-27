@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.seongjun.mission02.mapper.ProductMapper"> <resultMap id="productResultMap" type="com.seongjun.mission02.model.Product"> <id property="productId" column="product_id"/>
+    <result property="productCode" column="product_code"/>
+    <result property="productName" column="product_name"/>
+    <result property="price" column="price"/>
+    <result property="stockQuantity" column="stock_quantity"/>
+    <result property="description" column="description"/>
+    <result property="sku" column="sku"/>
+    <result property="category" column="category"/>
+    <result property="manufactureDate" column="manufacture_date"/>
+    <result property="lastUpdateTime" column="last_update_time"/>
+    <result property="registeredDatetime" column="registered_datetime"/>
+    <result property="warrantyEndDate" column="warranty_end_date"/>
+</resultMap>
+
+    <insert id="insertProduct" parameterType="com.seongjun.mission02.model.Product"
+            useGeneratedKeys="true" keyProperty="productId">
+        INSERT INTO products_inventory (
+        product_code, product_name, price, stock_quantity,
+        description, sku, category, manufacture_date,
+        last_update_time, registered_datetime, warranty_end_date
+        ) VALUES (
+        #{productCode}, #{productName}, #{price}, #{stockQuantity},
+        #{description}, #{sku}, #{category}, #{manufactureDate},
+        #{lastUpdateTime}, #{registeredDatetime}, #{warrantyEndDate}
+        )
+    </insert>
+
+    <select id="selectProductById" parameterType="int" resultMap="productResultMap">
+        SELECT
+        product_id, product_code, product_name, price, stock_quantity,
+        description, sku, category, manufacture_date,
+        last_update_time, registered_datetime, warranty_end_date
+        FROM products_inventory
+        WHERE product_id = #{productId}
+    </select>
+
+    <select id="selectAllProducts" resultMap="productResultMap">
+        SELECT
+        product_id, product_code, product_name, price, stock_quantity,
+        description, sku, category, manufacture_date,
+        last_update_time, registered_datetime, warranty_end_date
+        FROM products_inventory
+    </select>
+
+    <update id="updateProduct" parameterType="com.seongjun.mission02.model.Product">
+        UPDATE products_inventory
+        SET
+        product_name = #{productName},
+        price = #{price},
+        stock_quantity = #{stockQuantity},
+        description = #{description},
+        sku = #{sku},
+        category = #{category},
+        manufacture_date = #{manufactureDate},
+        last_update_time = #{lastUpdateTime},
+        warranty_end_date = #{warrantyEndDate}
+        WHERE product_id = #{productId}
+    </update>
+
+    <delete id="deleteProduct" parameterType="int">
+        DELETE FROM products_inventory
+        WHERE product_id = #{productId}
+    </delete>
+
+</mapper>
